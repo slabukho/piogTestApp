@@ -2,7 +2,7 @@ import React from 'react'
 import {StyledModal} from './styled'
 import {  useSelector } from 'react-redux';
 import {getIsAuthSelector} from '../../store/News/selectors'
-
+import {enableScrollOnTarget} from '../../modules/NewsPage/stopScroll'
 
 const Modal = ({setIsModal,post,enableScroll}) => {
     const isAuth = useSelector(getIsAuthSelector)
@@ -21,6 +21,7 @@ const Modal = ({setIsModal,post,enableScroll}) => {
                 <img
                     src={post.picture}
                 />
+                <p>{post.date}</p>
                 <p>{post.text}</p>
             </div>
             <span/>

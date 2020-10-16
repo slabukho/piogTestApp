@@ -19,6 +19,7 @@ const New =( {post,setInner,setIsModal} )=>{
                 src={post.picture}
                 onClick={openModal}
             />
+            <p>{post.date}</p>
             <p
             onClick={openModal}
             >{post.text.substr(0,120)}...</p>

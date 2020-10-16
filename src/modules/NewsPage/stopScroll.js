@@ -38,3 +38,4 @@ export function enableScroll() {
     window.removeEventListener('touchmove', preventDefault, wheelOpt);
     window.removeEventListener('keydown', preventDefaultForScrollKeys, false);
 }
+
