@@ -1,12 +1,5 @@
 import React, { useState } from 'react'
-import { useForm } from "react-hook-form";
-import Input from '../../components/input'
-import Button from '../../components/button'
-import {
-    FormStyled
-} from './styled'
 import newsData from './newsData'
-import { useDispatch } from 'react-redux';
 import { NewStyled, NewsStyled} from './styled'
 import Header from '../../components/header'
 import Modal from '../../components/modal'

@@ -4,7 +4,7 @@ import {
     HeaderStyled
 } from './styled'
 import { useDispatch, useSelector } from 'react-redux';
-import {authThunk, logoutThunk} from '../../store/News/thunk'
+import { logoutThunk} from '../../store/News/thunk'
 import {getIsAuthSelector} from '../../store/News/selectors'
 import logoutImg from '../../imgs/logout (2).png'
 import guide from '../../constatns/modulesGuide'
